@@ -29,6 +29,8 @@ if __name__ == "__main__":
             break
         tasks.append(task)
 
+
+
     if not tasks:
         print("Нет задач для составления расписания.")
     else:
