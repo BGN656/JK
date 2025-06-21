@@ -5,6 +5,7 @@ def generate_schedule(tasks, start_time, duration_per_task):
     schedule = []
     current_time = start_time
 
+
     for task in tasks:
         end_time = current_time + timedelta(minutes=duration_per_task)
         schedule.append({"task": task, "start": current_time, "end": end_time})
